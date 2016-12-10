@@ -4,6 +4,7 @@
 * 页面提示与窗体 
 * HashTable
 * 时间日期操作
+* 浏览器判断
 * url操作与cookie
 * 按钮点击与选择判断
 
@@ -159,4 +160,17 @@ zydate.NewDatefunction('2014-12-12 00:00:00');
 #### 兼容中文的NewDate
 ```javascript
 zydate.NewDateCH('2014年12月12日 00点00分00秒');
+```
+## 浏览器判断
+### 是否是微信
+```javascript
+zydate.isweixin();
+```
+### 是否是安卓
+```javascript
+zydate.isandroid();
+```
+### 是否是苹果
+```javascript
+zydate.isios();
 ```
