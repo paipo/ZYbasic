@@ -164,13 +164,13 @@ zydate.NewDateCH('2014年12月12日 00点00分00秒');
 ## 浏览器判断
 ### 是否是微信
 ```javascript
-zydate.isweixin();
+zysys.isweixin();
 ```
 ### 是否是安卓
 ```javascript
-zydate.isandroid();
+zysys.isandroid();
 ```
 ### 是否是苹果
 ```javascript
-zydate.isios();
+zysys.isios();
 ```
