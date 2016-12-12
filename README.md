@@ -58,7 +58,7 @@ var m1 = {
 list.push(m1);
 var m2 = {
   id: 2,
-  type: 2,//自定义属性
+  type: 2,
   text: '大众'
 }
 list.push(m2);
@@ -134,7 +134,7 @@ zydate.DateAdd('mt',1,date);
 ```javascript
 zydate.DateAdd('q',1,date);
 ```
- #### 添加周
+#### 添加周
 ```javascript
 zydate.DateAdd('w',1,date);
 ```
