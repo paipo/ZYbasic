@@ -11,6 +11,7 @@
 
 ## 页面提示与窗体
 ### 确认与取消框
+![image](https://raw.githubusercontent.com/paipo/screenshots/master/tc.png)
 ```javascript
 zyalert.showconfirm('提示的标题', '确认按钮文本', '取消按钮文本', function () {
                 //点击确认了
@@ -19,22 +20,27 @@ zyalert.showconfirm('提示的标题', '确认按钮文本', '取消按钮文本
 });
 ```
 ### 等待提示框
+![image](https://raw.githubusercontent.com/paipo/screenshots/master/jz.png)
 ```javascript
 zyalert.showloading(' 稍等');
 ```
 ### 成功提示框
+![image](https://raw.githubusercontent.com/paipo/screenshots/master/cg.png)
 ```javascript
 zyalert.showok(' 成功');
 ```
 ### 失败提示框
+![image](https://raw.githubusercontent.com/paipo/screenshots/master/cw.png)
 ```javascript
 zyalert.showero(' 失败');
 ```
 ### 普通提示框 2.5 秒后关闭
+![image](https://raw.githubusercontent.com/paipo/screenshots/master/ts.png)
 ```javascript
 zyalert.showtext('你好啊！');
 ```
 ### 普通提示框 5 秒后关闭
+![image](https://raw.githubusercontent.com/paipo/screenshots/master/ts.png)
 ```javascript
 zyalert.showtextlong('你好啊！');
 ```
@@ -47,6 +53,7 @@ zyalert.closealert();
 zyalert.alertAndBack('设置成功了！马上为您跳转','www.github.com');
 ```
 ### 带选择项目的弹窗
+![image](https://raw.githubusercontent.com/paipo/screenshots/master/xz.png)
     列表对象必须包含 text 属性，其他属性可以自定义多个，在回调后可按自定义使用
 ```javascript
 var list = new Array();
