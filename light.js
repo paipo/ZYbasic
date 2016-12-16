@@ -1,4 +1,5 @@
-﻿var zyalert = {
+/*light.js zy 2015-12-1*/
+var zyalert = {
     confirmcallbackok: false,
     confirmcallbackcanle: false,
     //弹出确定对话框
